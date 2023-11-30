@@ -54,6 +54,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="url"], i
 
 input[type="radio"] {
     width: auto;
+    vertical-align: middle; 
 }
 
 input[type="submit"] {
@@ -94,3 +95,17 @@ h3 {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.option-container {
+    display: inline-block; 
+    margin-right: 15px; 
+}
+
+.option-container label {
+    margin-left: 5px;
+}
+
